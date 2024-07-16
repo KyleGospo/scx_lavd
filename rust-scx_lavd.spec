@@ -17,6 +17,7 @@ Source:         %{crates_source}
 Source:         scx_lavd-1.0.1-vendor.tar.xz
 
 BuildRequires:  cargo-rpm-macros >= 26
+BuildRequires:  elfutils-libelf-devel
 
 %global _description %{expand:
 A Latency-criticality Aware Virtual Deadline (LAVD) scheduler based on
